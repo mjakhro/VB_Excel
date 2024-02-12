@@ -6,7 +6,7 @@ Sub FindAndColorAllInstances()
     Dim startPos As Long
 
     ' Set the worksheet
-    Set ws = ThisWorkbook.Sheets("SAT Scheme Integration") ' Change "Sheet1" to your sheet name
+    Set ws = ThisWorkbook.Sheets("SAT Scheme Integration") ' Change to your sheet name
 
     ' Set the text string you want to find and color
     searchText = "CB8002" ' Change "YourText" to the text you want to find and color
